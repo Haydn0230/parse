@@ -1,4 +1,4 @@
-module parse
+module github.com/Haydn0230/parse
 
 go 1.14
 

@@ -26,8 +26,8 @@ func errCheck(err error) {
 	}
 }
 
-// Parse reads a htmldoc and recursively goes through each node looking for a tags
-func Parse(r io.Reader) ([]link, error){
+// HTML reads a htmldoc and recursively goes through each node looking for a tags
+func HTML(r io.Reader) ([]link, error){
 	doc, err := html.Parse(r)
 	errCheck(err)
 

@@ -75,7 +75,7 @@ func TestHTMLParser(t *testing.T) {
 
 			r := bytes.NewReader(xb)
 
-			xl, err := Parse(r)
+			xl, err := HTML(r)
 			errCheck(err)
 			fmt.Printf("\nexpected\n actual\n")
 			assert.Equal(t, tc.expected, xl)
