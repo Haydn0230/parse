@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"github.com/Haydn0230/golessons/htmlLinkParser/Link"
+	"github.com/Haydn0230/parse/Link"
 	"io/ioutil"
 	"log"
 )
